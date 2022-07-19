@@ -98,7 +98,7 @@ function App() {
               <td><strong>Name: </strong>{user.name}</td>
               <td><strong>Age: </strong>{user.age}</td>
               <td><strong>Student: </strong>{user.isStudent ? "Yes" : "No"}</td>
-              <button onClick={() => {updateUser(user.id, user.age)}} className="btn">Increase Age</button>
+              <button onClick={() => {updateUser(user.id, user.age)}} className="btn btn-primary">Increase Age</button>
               <button onClick={() => {deleteUser(user.id)}} className="btn btn-danger">Delete</button>
             </tr>
           ))}
